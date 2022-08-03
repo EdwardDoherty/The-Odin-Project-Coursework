@@ -1,7 +1,7 @@
 /*Generics--------------------------------------*/
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -89,6 +89,12 @@ a {
 
 .infobody {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .infobody h2 {
@@ -100,14 +106,55 @@ a {
 .infoboxcontainer {
     display: flex;
     justify-content: space-around;
+    max-width: 60%;
+    gap: 80px;
 }
 
 .infobox {
+    color: #1F2937;
+}
+
+.imgBox {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+/*quote body*/
+
+.quotebody {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-bottom: 0px;
+}
+
+.quotebody .largequote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.quotebody .signature {
+    padding-top: 0px;
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
 
 }
 
-.flexbox img {
-    border: 4px solid #3882F6;
-    width: 200px;
-    height: 200px;
+/*call to action*/
+
+.msgbubble {
+    
 }
