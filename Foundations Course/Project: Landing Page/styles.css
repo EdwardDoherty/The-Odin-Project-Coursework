@@ -1,7 +1,7 @@
 /*Generics--------------------------------------*/
 
 body {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -21,6 +21,7 @@ a {
     padding-right: 15%;
     padding-bottom: 140px;
     padding-top: 20px;
+
 }
 
 .navbar {
@@ -156,5 +157,60 @@ a {
 /*call to action*/
 
 .msgbubble {
-    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msgbubble h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.msgbubble p {
+    font-size: 24px;
+}
+
+.msgbubble button {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px solid white;
+    padding: 1.5em;
+    max-height: 3em;
+    border-radius: 15px;
+    transition: all 0.4s;
+
+}
+
+.msgbubble button:hover {
+    background-color: #1c6cec;
+    border-style: double;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1em;
+    margin: 0px;
+    text-align: center;
+    font-weight: 900;
 }
