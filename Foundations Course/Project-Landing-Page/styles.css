@@ -82,6 +82,9 @@ a {
 
 .heroheader .imgplaceholder {
     background-color: rgb(63, 63, 63);
+    background-image: url(subwayyellow.jpg);
+    background-position: center 50%;
+    background-size:cover;
     width: 520px;
     height: 250px;
 }
@@ -89,6 +92,8 @@ a {
 /*info body*/
 
 .infobody {
+    /* background-image: url(japancyberpunk.jpg);
+    background-position: center 50%; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -99,9 +104,10 @@ a {
 }
 
 .infobody h2 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 900px;
-    color: #1F2937;
+    color: #3882F6;
+
 }
 
 .infoboxcontainer {
@@ -116,10 +122,34 @@ a {
 }
 
 .imgBox {
-    border: 4px solid #3882F6;
+    border: 8px solid #3882F6;
     border-radius: 15px;
     width: 200px;
     height: 200px;
+}
+
+#imgOne {
+    background-image: url(bigyellowx.jpg);
+    background-position: center 50%;
+    background-size:cover;
+}
+
+#imgTwo {
+    background-image: url(brickcitystreet.jpg);
+    background-position: center 50%;
+    background-size:cover;
+}
+
+#imgThree {
+    background-image: url(timesquare.jpg);
+    background-position: center 50%;
+    background-size:cover;
+}
+
+#imgFour {
+    background-image: url(v8cafe.jpg);
+    background-position: center 50%;
+    background-size:cover;
 }
 
 /*quote body*/
